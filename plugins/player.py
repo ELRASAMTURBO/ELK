@@ -374,7 +374,11 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**  🏆🅂🄾🅁🅂 🄴🄻🅁🄰🅂🄰🄼🏆 ...**".format(position),
+            caption="**  ╭──── • ⍟ • ────╮
+⌁ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(t.me/EL_RASA)
+⌁ [𝐴𝑆𝐾 𝑇𝑂 𝑀𝑌 ’]⚡(t.me/ELRSAM11)
+⌁ [𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(@Mahmod777777)
+╰──── • ⍟ • ────╯ ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -391,7 +395,11 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="ِِ** 🐊ِِ🅂🄾🅁🅂🄴🄻🅁🄰🅂🄰🄼 وط ...**".format(),
+            caption="ِِ** ╭──── • ⍟ • ────╮
+⌁ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(t.me/EL_RASA)
+⌁ [𝐴𝑆𝐾 𝑇𝑂 𝑀𝑌 ’]⚡(t.me/ELRSAM11)
+⌁ [𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(@Mahmod777777)
+╰──── • ⍟ • ────╯ ...**".format(),
            )
 
     os.remove("final.png")
