@@ -1,75 +1,79 @@
 {
-    "name": "ميوزك الرسام",
-    "logo": "https://telegra.ph/file/ee7f3d01f1ad82d5b8aae.jpg",
-    "description": "افضل سورسات التليكرام",
-    "keywords": ["tgmusicbot", "voice chat", "telegram"],
-    "repository": "https://github.com/ELrasmElknk/ELK.git ",
-    "stack": "container",
-    "env": {
-        "API_HASH": {
-            "description": "قم بوضع الايبي هاش",
-            "required": true
-        },
-        "API_ID": {
-            "description": "ايبي ايدي مطلوب",
-            "required": true
-        },
-        "ASSISTANT_USERNAME": {
-            "description": "معرف حساب المساعد بدون '@')",
-            "required": true,
-            "value": "Elrasam7"
-        },
-        "START_PIC": {
-            "description": "صورة البوت مطلوبة",
-            "required": true,
-            "value": "https://telegra.ph/file/ee7f3d01f1ad82d5b8aae.jpg"
-        },
-        "BOT_TOKEN": {
-            "description": "توكن بوتك حط",
-            "required": true
-        },
-        "BOT_USERNAME": {
-            "description": "معرف بوتك بدون '@')",
-            "required": true,
-            "value": "Elrasam11111bot"
-        },
-        "PROFILE_CHANNEL": {
-            "description": "رابط قناتك خلي .",
-            "required": true,
-            "value": "https://t.me/E_L_R_A_S_A_M"
-        },
-        "OWNER_USERNAME": {
-            "description": "معرفك بدون@ كمطور",
-            "required": true,
-            "value": "Mahmod777777"
-        },
-        "STRING_SESSION": {
-            "description": "كود بايروجرام",
-            "required": true
-        },
-        "SUDO_USERS": {
-            "description": "ايدي المطورين حط ايديك كمطور",
-            "required": true,
-            "value": "2125600195"
-            
-        },
-        "SUPPORT_GROUP": {
-            "description": "رابط كروب الدعم حطه",
-            "required": true,
-            "value": "https://t.me/ELRSAM11"
-        },
-        "UPDATES_CHANNEL": {
-            "description": "رابط قناتك الثانيه ازا ماعندك غير وحده حطو نفس يلي فوك",
-            "required": true,
-            "value": "https://t.me/E_L_R_A_S_A_M"
-        }
+  "name": "سورس كزابلانكا",
+  "logo": "https://telegra.ph/file/362e62af56db3a5e1bbe7.jpg",
+  "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram", "fallen"],
+  "repository": "https://github.com/sorselrsam/ELRSAM.git",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "ضع كود بايروجرام",
+      "required": true
     },
-    "buildpacks": [
-    {
-      "url": "heroku/python"
+    "BOT_TOKEN": {
+      "description": "ضع توكن بوتك يا قلبي",
+      "required": true
     },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    "BOT_NAME": {
+      "description":" معرف بوتك @",
+      "required": false,
+      "value": "Elrasam11111bot"
+    },
+    "BOT_USERNAME": {
+      "description": " معرف بوتك مره تانيه بدون @",
+      "required": false,
+      "value": "Elrasam11111bot"
+    },
+    "API_ID": {
+      "description": "ايبي ايدي ضع هنا my.telegram.org/apps",
+      "required": false
+    },
+    "API_HASH": {
+      "description": "ايبي هاش ضع هنا my.telegram.org/apps",
+      "required": false
+    },
+    "ASSISTANT_NAME": {
+            "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
+            "required": true,
+            "value": "E_R_S_A_M1" 
+     }, 
+     "OWNER_USERNAME": {
+      "description": "معرف مطور البوت بدون @",
+      "required": false,
+      "value": "Mahmod777777"
+    },
+    "SUPPORT_GROUP": {
+      "description": "معرف جروبك بدون @",
+      "required": false,
+      "value": "ELRSAM11"
+    },
+     "UPDATES_CHANNEL": {
+      "description": "معرف قناتك بدون @",
+       "required": true,
+       "value": "EL_RASA"
+     }, 
+     "SUDO_USERS": {
+      "description": "ضع ايدي بتاعك",
+      "required": true,
+      "value": "2125600195"
+    },
+    "START_IMG": {
+      "description": "ضع صورة البوت مره تانيه",
+      "required": false
+    },
+    "PING_IMG": {
+      "description": "ضع صورة البوت",
+      "required": false
+    },
+    "PMPERMIT": {
+      "description": "لا تغيرها",
+      "required": false,
+      "value": "ENABLE"
+    },
+    "DURATION_LIMIT": {
+      "description": "لا تغيرها",
+      "required": false,
+      "value": "90"
     }
-  ]
+  }
 }

@@ -1,4 +1,4 @@
-<h1 align="center"><b>𝗦𝗨𝗢𝗥𝗖𝗘 ELRASAM᷂᷂🦖</b></h1>
+<h1 align="center"><b>𝗦𝗨𝗢𝗥𝗖𝗘 ™⋆⃟🇪🇸𝘾َ𝘼𝙎َ𝘼𝘽ً𝙇𝘼ٍ𝙉ٍ𝘾ً𝘼</b></h1>
 
 <p align="center">
     <br><b>يدعم تشغيل الموسيقي والفديو داخل المحادثات الصوتية</b><br>
@@ -9,9 +9,9 @@
 ## 🧪الحصول علي جلسة البيوجرام:
 [![جلسة بيوجرام]<a href="https://t.me/ELRASAMbot"><img src="https://img.shields.io/badge/Dev%20ELRASAM-blue.svg?style=for-the-badge&logo=استخراج جلسه"></a> <a href="https://t.me/ELRASAMbot"><img src="https://img.shields.io/badge/استخراج جلسه-blue.svg?style=for-the-badge&logo=جلسه بيروجرام"></a> <a href="https://t.me/ELRASAMbot"><img src="https://img.shields.io/badge/جلسه بيروجرام -blue.svg?style=for-the-badge&logo=ELRASAM"></a>
 
-## 𝗦𝗨𝗢𝗥𝗖𝗘 ELRASAM 
+## 𝗦𝗨𝗢𝗥𝗖𝗘 ™⋆⃟🇪🇸𝘾َ𝘼𝙎َ𝘼𝘽ً𝙇𝘼ٍ𝙉ٍ𝘾ً𝘼 
 <p align="center">
-  <img src="https://telegra.ph/file/b144db94dc0db0fd86526.jpg">
+  <img src="https://telegra.ph/file/362e62af56db3a5e1bbe7.jpg">
 </p>
 
 ## ✨ المميزات
