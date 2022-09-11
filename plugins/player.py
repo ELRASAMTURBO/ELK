@@ -142,7 +142,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 🅂🄾🅁🅂 🄴🄻🅁🄰🅂🄰🄼 ...**")
+                        "**انضم ...**")
                     return
 
                 try:
@@ -172,12 +172,12 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**💥 𝐏𝐥𝐚𝐲 🎧 𝐌𝐮𝐬𝐢𝐜 ✖️ 𝐋𝐞𝐬𝐬 ⚡️\n🤟 𝐓𝐡𝐚𝐧⚡️ {DURATION_LIMIT} 💞 𝐌𝐢𝐧𝐮𝐭𝐞 ...**"
+                f"**💥 𝐏𝐥𝐚𝐲 🎧 𝐌𝐮𝐬𝐢𝐜 ✖️ حمو\nسورس {DURATION_LIMIT} الرسام ...**"
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/8d18e1e24e7b66b822144.png"
+        thumb_name = "https://telegra.ph/file/8212b102af2ccc62f88d5.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -262,7 +262,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/8d18e1e24e7b66b822144.png"
+            thumb_name = "https://telegra.ph/file/8212b102af2ccc62f88d5.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -292,7 +292,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 𝐏𝐥𝐚𝐲 🔊 𝐌𝐮𝐬𝐢𝐜 ✖️ 𝐋𝐞𝐬𝐬 ⚡️\n🤟 𝐓𝐡𝐚𝐧⚡️ {DURATION_LIMIT} 💞 𝐌𝐢𝐧𝐮𝐭𝐞 ...**"
+                f"**💥 𝐏𝐥𝐚𝐲 🔊 𝐌𝐮𝐬𝐢𝐜 ✖️ حمو\nسورس {DURATION_LIMIT} الرسام ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -360,7 +360,7 @@ async def play(_, message: Message):
 
         if (dur / 900) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 𝐏𝐥𝐚𝐲 🔊 𝐌𝐮𝐬𝐢𝐜 ✖️ 𝐋𝐞𝐬𝐬 ⚡️\n🤟 𝐓𝐡𝐚𝐧⚡️ {DURATION_LIMIT} 💞 𝐌𝐢𝐧𝐮𝐭𝐞 ...**"
+                f"**💥 𝐏𝐥𝐚𝐲 🔊 𝐌𝐮𝐬𝐢𝐜 ✖️ حمو ة \nسورس {DURATION_LIMIT} الرسام...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -374,9 +374,9 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="** ⌁ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(t.me/EL_RASA)
-⌁ [𝐴𝑆𝐾 𝑇𝑂 𝑀𝑌 ’]⚡(t.me/ELRSAM11)
-⌁ [𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(@Mahmod777777)...**".format(position),
+            caption="** ⌁ ™⋆⃟🇪🇸𝘾َ𝘼𝙎َ𝘼𝘽ً𝙇𝘼ٍ𝙉ٍ𝘾ً𝘼
+𝙀ٍ𝙇ً𝙍ً𝘼ً𝙎𝘼ٌ𝙈
+𝘿ً𝘼ً𝘿 𝙃ً𝘼ً𝙈ٍ𝙊ٍ𝙊 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -393,9 +393,9 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="ِِ** ⌁ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(t.me/EL_RASA)
-⌁ [𝐴𝑆𝐾 𝑇𝑂 𝑀𝑌 ’]⚡(t.me/ELRSAM11)
-⌁ [𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(@Mahmod777777) ...**".format(),
+            caption="ِِ**  ⌁ ™⋆⃟🇪🇸𝘾َ𝘼𝙎َ𝘼𝘽ً𝙇𝘼ٍ𝙉ٍ𝘾ً𝘼
+𝙀ٍ𝙇ً𝙍ً𝘼ً𝙎𝘼ٌ𝙈
+𝘿ً𝘼ً𝘿 𝙃ً𝘼ً𝙈ٍ𝙊ٍ𝙊 ...**".format(),
            )
 
     os.remove("final.png")
